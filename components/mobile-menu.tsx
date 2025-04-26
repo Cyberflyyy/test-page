@@ -36,7 +36,7 @@ export default function MobileMenu() {
             transition={{ duration: 0.3 }}
             className="absolute top-16 left-0 right-0 bg-white shadow-lg z-50 border-b border-gray-200"
           >
-            <div className="container py-4 px-4 flex flex-col space-y-4">
+            <div className="container mx-auto max-w-7xl px-4 md:px-8 py-4 flex flex-col space-y-4">
               <Link
                 href="#o-nas"
                 className="text-base font-medium py-2 px-4 rounded-md hover:bg-sky-50 hover:text-blue-500 transition-colors"

@@ -11,7 +11,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col">
       {/* Nawigacja */}
       <header className="sticky top-0 z-40 w-full border-b bg-white/80 backdrop-blur-sm">
-        <div className="container flex h-16 items-center justify-between">
+        <div className="container mx-auto max-w-7xl px-4 md:px-8 flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Code className="h-6 w-6 text-sky-500" />
             <span className="text-xl font-bold">FrontMaster</span>
@@ -42,7 +42,7 @@ export default function Home() {
       <main className="flex-1">
         {/* Sekcja Hero */}
         <section className="relative overflow-hidden bg-gradient-to-b from-white to-sky-50 py-12 md:py-20 lg:py-32">
-          <div className="container px-4 flex flex-col md:flex-row items-center gap-8 md:gap-16">
+          <div className="container mx-auto max-w-7xl px-4 md:px-8 flex flex-col md:flex-row items-center gap-8 md:gap-16">
             <div className="flex flex-col space-y-4 md:w-1/2">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
                 Tworzymy{" "}
@@ -75,7 +75,7 @@ export default function Home() {
 
         {/* Sekcja O nas */}
         <section id="o-nas" className="py-16 md:py-20 bg-white">
-          <div className="container px-4">
+          <div className="container mx-auto max-w-7xl px-4 md:px-8">
             <div className="text-center mb-12 md:mb-16">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Kim jesteśmy?</h2>
               <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
@@ -123,7 +123,7 @@ export default function Home() {
 
         {/* Sekcja Projekty */}
         <section id="projekty" className="py-16 md:py-20 bg-gradient-to-b from-white to-sky-50">
-          <div className="container px-4">
+          <div className="container mx-auto max-w-7xl px-4 md:px-8">
             <div className="text-center mb-12 md:mb-16">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Nasze projekty</h2>
               <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
@@ -186,7 +186,7 @@ export default function Home() {
 
         {/* Sekcja Proces */}
         <section id="proces" className="py-20 bg-white">
-          <div className="container">
+          <div className="container mx-auto max-w-7xl px-4 md:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Nasz proces</h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -235,7 +235,7 @@ export default function Home() {
 
         {/* Sekcja Kontakt */}
         <section id="kontakt" className="py-16 md:py-20 bg-gradient-to-b from-sky-50 to-white">
-          <div className="container px-4">
+          <div className="container mx-auto max-w-7xl px-4 md:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12">
               <div>
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Skontaktuj się z nami</h2>
@@ -376,7 +376,7 @@ export default function Home() {
 
       {/* Stopka */}
       <footer className="bg-gradient-to-b from-sky-50 to-sky-100 py-10 md:py-12">
-        <div className="container px-4">
+        <div className="container mx-auto max-w-7xl px-4 md:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center gap-2">
